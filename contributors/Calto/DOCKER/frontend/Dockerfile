@@ -6,7 +6,7 @@ COPY ./ ./
 RUN npm i
 CMD ["npm", "run", "start"]
 
-# FROM nginx:stable-alpine
-# COPY nginx/nginx.conf /app/default.conf
-# EXPOSE 80
-# CMD [ "nginx", "-g", "daemon off;" ]
+FROM nginx:stable-alpine
+COPY nginx/nginx.conf /app/default.conf
+EXPOSE 80
+CMD [ "nginx", "-g", "daemon off;" ]
