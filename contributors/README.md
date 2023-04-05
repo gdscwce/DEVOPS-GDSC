@@ -1,3 +1,2 @@
-#CREATE A FOLDER WITH YOUR NAME 
-<h2>With every tool create a folder of that tool name in uppercase letters<h2/>
-Add submissions to your assignments in that tool folder
+<h2>Frontend -> docker pull calto/gdsc:frontend <h2/>
+<h2>Backend -> docker pull calto/gdsc:backend <h2/>
