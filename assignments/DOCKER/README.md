@@ -2,8 +2,11 @@
 
 
 #To run frontend
+<br/>
       --npm start
+<br/>
 #To run backend
+<br/>
       --node app.js
 
 
