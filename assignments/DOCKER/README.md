@@ -1,4 +1,12 @@
 # Take this both folders frontend and backend in your contributors folder
+
+
+#To run frontend
+      --npm start
+#To run backend
+      --node app.js
+
+
 Create dockerfiles for both frontend and backend
         --- push both images in your dockerhub account
         --- include both dockerhub links into README of Docker folder in your folder
