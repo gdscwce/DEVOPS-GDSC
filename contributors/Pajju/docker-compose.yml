@@ -1,0 +1,12 @@
+version: "3"
+services:
+  node-app:
+    build: backend/.
+    ports:
+      - 3001:3001
+    command: node app.js
+
+  frontend-app: 
+    build: frontend/.
+    ports:
+      - 80:80
