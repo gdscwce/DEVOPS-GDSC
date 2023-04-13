@@ -4,7 +4,7 @@ const Contact = () => {
     const [msg,setMsg] = React.useState('Click the button in contact')
     const handleClick=async() => {
           try {
-            const response = await axios.get('http://localhost:3001/contact')
+            const response = await axios.get('http://localhost:90/contact')
             console.log(response)
             setMsg(response.data.msg)
           }

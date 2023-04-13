@@ -4,7 +4,7 @@ const About = () => {
     const [msg,setMsg] = React.useState('Click the button in about')
     const handleClick=async() => {
           try {
-            const response = await axios.get('http://localhost:3001/about')
+            const response = await axios.get('http://localhost:90/about')
             console.log(response)
             setMsg(response.data.msg)
           }
