@@ -21,4 +21,4 @@ services:
   nginx:
     build: ./nginx
     ports:
-      - '4000:80'
+      - '90:80'

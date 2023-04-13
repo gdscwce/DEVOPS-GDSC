@@ -5,7 +5,7 @@ const Home = () => {
 
   const handleClick = async () => {
     try {
-      const response = await axios.get("http://localhost:3001");
+      const response = await axios.get("http://localhost:90");
       console.log(response);
       setMsg(response.data.msg);
     } catch (error) {
@@ -19,7 +19,7 @@ const Home = () => {
       const formData = new FormData(form);
 
       axios
-        .post("http://localhost:3001/upload", formData)
+        .post("http://localhost:90/upload", formData)
         .then((response) => {
           console.log(response.data);
           alert(response.data.msg);
